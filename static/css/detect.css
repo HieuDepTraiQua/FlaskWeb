@@ -1,0 +1,85 @@
+* {
+    font-family: "Geologica";
+    color: #423e3e;
+  }
+  
+  .container {
+    width: 99%;
+    position: relative;
+  }
+  
+  .bg-image {
+    object-fit: fill;
+    position: absolute;
+    object-fit: fill;
+    width: 99vw;
+    height: 98vh;
+    position: absolute;
+  }
+  
+  .title {
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+  }
+  
+  .item-list {
+    display: flex;
+    position: absolute;
+    width: 100%;
+  }
+
+  .content-detail{
+    border: 7px #423e3e solid;
+    width: 272px;
+    height: 400px;
+    border-radius: 20px;
+    position: absolute;
+
+  }
+
+  .left-item{
+    margin-top: 100px;
+    width: 50%;
+    padding: 0 40px;
+    height: auto;
+  }
+
+  .right-item{
+    margin-top: 100px;
+    width: 50%;
+    padding: 0 40px;
+    height: auto;
+  }
+
+  .content-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    position: unset;
+  }
+
+  .content-detail{
+    border: 7px #423e3e solid;
+    width: 45%;
+    height: 540px;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .return-button{
+    font-size: 30px;
+    position: absolute;
+    margin: 40px;
+    cursor: pointer;
+  }

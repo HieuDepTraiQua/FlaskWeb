@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/home.css') }}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body> 
+    <div class="container">
+      <img class="bg-image" src="../static/assest/bg.png" alt="" />
+      <div class="title">NHẬN DIỆN VĂN BẢN</div>
+      <div class="item-list">
+        <div class="content-items">
+          <div class="item">
+            <div class="item-title">Sử dụng</div>
+            <div class="item-title-2">KNN</div>
+            <div class="line"></div>
+            <img class="item-icon" src="../static/assest/knn.png" alt="" />
+            <div class="item-button" onclick="redirectToKnn()">Chọn</div>
+          </div>
+        </div>
+        <div class="content-items">
+          <div class="item">
+            <div class="item-title">Sử dụng</div>
+            <div class="item-title-2">CNN</div>
+            <div class="line"></div>
+            <img class="item-icon" src="../static/assest/cnn.png" alt="" />
+            <div class="item-button" onclick="redirectToCnn()">Chọn</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+        function redirectToKnn() {
+            window.location.href = "/knn";
+        }
+        function redirectToCnn() {
+            window.location.href = "/cnn";
+        }
+    </script>
+  </body>
+</html>
